@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question 7</title>
+</head>
+<body>
+
+<p id="bind"></p>
+<button>click me to add text</button>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("button").click(function() {
+			$("#bind").append("click me to add text <br>")
+		});
+		$("#bind").click(function() {
+			$("#bind").append("click me to add text <br>")
+		});
+	});
+</script>
+
+</body>
+</html>
